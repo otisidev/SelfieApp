@@ -3,8 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SelfieApp.Model", "SelfieApp.Model", "{0E2F5EA4-55D5-4CDE-8176-CF7C10A96B0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SelfieApp.Web", "SelfieApp.Web", "{D313255D-53B0-411D-9E44-765B01C2C666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SelfieApp.DI", "SelfieApp.DI", "{E76C015D-2791-4856-B5CD-C268F72B5FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Web", "App.Web\App.Web.csproj", "{BF57EA3F-C806-4910-B62B-44712D476809}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF57EA3F-C806-4910-B62B-44712D476809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF57EA3F-C806-4910-B62B-44712D476809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF57EA3F-C806-4910-B62B-44712D476809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF57EA3F-C806-4910-B62B-44712D476809}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF57EA3F-C806-4910-B62B-44712D476809} = {D313255D-53B0-411D-9E44-765B01C2C666}
 	EndGlobalSection
 EndGlobal
